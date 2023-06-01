@@ -1,0 +1,45 @@
+{% load static%}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css'%}" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="content">
+    <img id="logo" src="Assets/Design_sem_nome-removebg-preview.png"/>
+    <div class=card>
+        <h2 class="title">
+            <center>
+                Login
+            </center>
+        </h2>
+        <form class="forms">
+            <p>Login:</p>
+            <input type="text" id="user" name="Usuário" placeholder="Usuário"><br>
+            <p>Senha:</p>
+            <input type="password" id="password" name="Senha" placeholder="Senha"><br><br>
+
+        </form>
+        <center>
+            <button type="button" id="Submit">Logar</button>
+            <br>
+            <p>OU</p>
+            <a href="/auth/register"> Cadastre-se</a>
+        </center>
+    </div>
+    </div>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

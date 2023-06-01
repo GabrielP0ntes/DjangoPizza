@@ -1,0 +1,44 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css'%}"/>
+    <title>Cadastrar</title>
+</head>
+
+<body>
+    <div class="content">
+    <img id="logo" src="Assets/Design_sem_nome-removebg-preview.png"/>
+    <div class=card>
+        <h2 class="title">
+            <center>
+                Cadastro
+            </center>
+        </h2>
+        <form class="forms" method="POST" action="{% url 'valida_cadastro' %}"> {% csrf_token %}
+            <br>
+            <p>Usuário:</p>
+            <input type="text" id="user" name="usuario" placeholder="Usuário"><br>
+            <p>Digite Seu Email:</p>
+            <input type="email" id="password" name="Email" placeholder="Digite Seu Email"><br><br>
+            <p>Senha:</p>
+            <input type="password" id="password" name="Senha" placeholder="Sua Senha"><br><br>
+
+            <br>
+            <button type="button" id="Submit" value="Enviar">Cadastrar</button>
+        </center>
+    </div>
+    </div>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

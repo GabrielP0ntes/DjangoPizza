@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt:300,400,500,700|PT++Mono);
+
+body{
+background-image: url('Assets/879.jpg');
+background-size: 1000px;
+  font-family: 'Prompt', Sans-serif;
+
+}
+#logo{
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+
+.title{
+  background-color: #7E1717;
+  width: 365px;
+  padding: 20px;
+  font-weight: 500;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 3px 3px 3px #242c30;
+  text-shadow: 1px 1px 1px #707c83;
+}
+.card{
+  background-color: white;
+  width: 400px;
+  font-weight: normal;
+  height: 670px;
+  border-radius: 20px;
+  margin-left: 550px;
+  margin-bottom: 500px;
+  box-shadow: 3px 3px 3px white;
+}
+.forms{
+  padding-left: 35px;
+  margin-right:25px;
+}
+#user{
+  border-radius: 10px;
+  height:35px;
+  border: 2px solid lightgray;
+  width:320px;
+}
+
+#password{
+  border-radius: 10px;
+  height:35px;
+  border: 2px solid lightgray;
+  width:320px;
+}
+#Submit{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  display: block;
+  border: none;
+  background:  #7E1717;
+  border-radius: 10px;
+  width:170px;
+  height: 60px;
+  box-shadow: 3px 3px 3px gray;
+  font-size: 17px;
+  font-family: 'Prompt', sans-serif;
+  text-shadow: 1px 1px 1px black;
+  opacity: 1;
+  transition: 0.3s;
+}
+#Submit:hover {background-color: #1f1f1f;}
+
+#Submit:active {
+  background-color: #707c83;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a{
+    font-size: 15px;
+    color: black;
+}

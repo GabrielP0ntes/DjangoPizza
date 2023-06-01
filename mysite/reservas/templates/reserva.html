@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/reservas.css'%}">
+    <title>Reservas</title>
+</head>
+
+<body>
+    <main>
+        <header class="header-container">
+            <a href="index.html">
+                <img id="logo" src="Assets/Design_sem_nome-removebg-preview.png" height="150px" width="150px"
+                    alt="logo" />
+            </a>
+
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="#">RESERVA</a>
+                <a href="#">DELIVERY</a>
+                <a href="menu.html">CARDÁPIO</a>
+                <a href="login.html">LOGIN</a>
+            </div>
+            <button class="deliverybtn">Pedir Online</button>
+        </header>
+        <section class="content">
+            <div class=card>
+                <center>
+                    <h2 class="title">
+                        Faça sua Reserva
+                    </h2>
+                    <form class="forms">
+                        <p>Seu Nome:</p>
+                        <input type="text" id="user" name="Usuário" placeholder="Ex: Wilson Pipico"><br>
+                        <p>Quantas pessoas:</p>
+                        <input type="number" id="password" name="Endereço" placeholder="4"><br><br>
+                        <p>Número Da Mesa:</p>
+                        <input type="number" id="password" name="Senha" placeholder="24"><br><br>
+                        <p>Data:</p>
+                        <input type="date" id="password" name="Senha" placeholder="16/04/2025"><br><br>
+                        <p>Horário:</p>
+                        <input type="time" id="password" name="Senha" placeholder="16:30"><br><br>
+                        <button type="button" id="Submit">Reservar</button>
+                        <br>
+                    </form>
+                </center>
+        </section>
+    </main>
+    <footer>
+        <div class="Copyright">
+            <h4>© Copyright 2023 - Todos os direitos reservados a Monkey Pizzaria</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
